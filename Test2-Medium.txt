@@ -1,0 +1,14 @@
+Test 2: Classes and Inheritance
+Problem: Library Management System
+
+Design and implement a simple library management system. The system should allow for the following functionalities:
+
+Add new books to the library.
+Borrow books.
+Return books.
+Display the list of all books, indicating whether they are available or borrowed.
+Requirements:
+
+Create a base class Book with properties Title, Author, ISBN, and IsBorrowed.
+Create a class Library with methods AddBook(Book book), BorrowBook(string isbn), ReturnBook(string isbn), and DisplayBooks().
+Implement a simple console interface to interact with the library.

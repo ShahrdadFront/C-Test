@@ -1,0 +1,14 @@
+Write a C# program that reads a text file and outputs the frequency of each word in the file. Your program should:
+
+Read the file path from the user.
+Read the content of the file.
+Count the frequency of each word, ignoring case and punctuation.
+Output the top 10 most frequent words and their counts.
+Constraints:
+
+You must handle file read errors gracefully.
+Ignore words shorter than 3 characters.
+Consider using Dictionary<string, int> for storing word frequencies.
+Example Input:
+
+File content: "Hello world! Hello C# developers. C# is awesome."

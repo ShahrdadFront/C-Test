@@ -1,0 +1,14 @@
+Problem: Implement a Mini Database Engine
+
+Design and implement a simplified in-memory database engine in C#. Your program should:
+
+Support basic CRUD (Create, Read, Update, Delete) operations.
+Allow defining a schema for a table.
+Support simple queries with filtering capabilities.
+Handle concurrent access using locking mechanisms.
+Requirements:
+
+Define a Table class to store records.
+Define a Record class to represent individual records.
+Use appropriate data structures to optimize read/write performance.
+Implement basic query support with filtering (e.g., SELECT * FROM Table WHERE Field = Value).
